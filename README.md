@@ -105,3 +105,35 @@ XXXXXXXXXX
 ### Step 04.3: Check if the services was created
 
 #### $ kubectl get services
+
+#
+
+# INGRESS ENGINE X
+
+## ingress-nginx is an Ingress controller for Kubernetes using NGINX as a reverse proxy and load balancer.
+
+ref: https://github.com/kubernetes/ingress-nginx/
+
+## See the Getting Started document.
+
+ref: https://kubernetes.github.io/ingress-nginx/deploy/
+
+## Docker Desktop ingress-nginx yaml fiel
+
+ref: https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.1.0/deploy/static/provider/cloud/deploy.yaml
+
+## Apply ingress-nginx
+
+### $ kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.1.0/deploy/static/provider/cloud/deploy.yaml
+
+## To get the namespaces
+
+### $ kubectl get namespaces
+
+## To see the pods in the igress-nginx kubernetes namespace
+
+### kubectl get pods --namespace=ingress-nginx
+
+### Open the host files in windows machine
+
+C:\Windows\System32\drivers\etc
