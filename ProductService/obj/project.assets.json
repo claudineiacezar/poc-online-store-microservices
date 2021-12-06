@@ -2174,11 +2174,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\claudineia.cezar.ext\\Documents\\microservices\\ProductService\\ProductService.csproj",
+      "projectUniqueName": "C:\\Users\\claudineia.cezar.ext\\Documents\\microservices\\OnlineStore\\ProductService\\ProductService.csproj",
       "projectName": "ProductService",
-      "projectPath": "C:\\Users\\claudineia.cezar.ext\\Documents\\microservices\\ProductService\\ProductService.csproj",
+      "projectPath": "C:\\Users\\claudineia.cezar.ext\\Documents\\microservices\\OnlineStore\\ProductService\\ProductService.csproj",
       "packagesPath": "C:\\Users\\claudineia.cezar.ext\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\claudineia.cezar.ext\\Documents\\microservices\\ProductService\\obj\\",
+      "outputPath": "C:\\Users\\claudineia.cezar.ext\\Documents\\microservices\\OnlineStore\\ProductService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\claudineia.cezar.ext\\AppData\\Roaming\\NuGet\\NuGet.Config"

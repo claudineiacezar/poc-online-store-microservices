@@ -1,23 +1,38 @@
+using Microsoft.EntityFrameworkCore;
 using ProductService.Models;
 
 namespace ProductService.Data
 {
     public static class PrepDB
     {
-        public static void Prepopulation(IApplicationBuilder app)
+        public static void Prepopulation(IApplicationBuilder app, bool isProd)
         {
              using( var serviceScope = app.ApplicationServices.CreateScope())
             {
                var context = serviceScope.ServiceProvider.GetService<AppDbContext>();
                if (context != null){
-                   SeedData(context);
+                   SeedData(context, isProd);
                }
                 
             }
 
         }
-        private static void SeedData (AppDbContext context)
+        private static void SeedData (AppDbContext context, bool isProd)
         {
+            if(isProd)
+            {
+                Console.WriteLine("--> Attempting apply Migrations ...");
+                try
+                {
+                    context.Database.Migrate();
+                }
+                catch( Exception ex)
+                {
+                    Console.WriteLine($"--> Could not apply migration: {ex.Message}");
+                }
+                
+
+            }
             if (context.Products != null && !context.Products.Any())
             {
                   Console.WriteLine("--> Seeding Data ...");

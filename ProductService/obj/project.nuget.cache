@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qrLU4jjp9LknPS0y17nWbj1vz5++vj/Rbs0wFkPgA7d/qcHXheVKkNikHcsY59IIGHfCzKWu2VVJKF38p0IGCg==",
+  "dgSpecHash": "TM/AJSTyBIV83yzvP5tWEDRVhMXvyvKwyI2EOEPAtpMuovFiSx6UoS4LQpyBqRaIP8+O9xDIYrb7cyjOUrYe4A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\claudineia.cezar.ext\\Documents\\microservices\\ProductService\\ProductService.csproj",
+  "projectFilePath": "C:\\Users\\claudineia.cezar.ext\\Documents\\microservices\\OnlineStore\\ProductService\\ProductService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\claudineia.cezar.ext\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\claudineia.cezar.ext\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

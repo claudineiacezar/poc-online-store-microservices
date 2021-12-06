@@ -16,7 +16,7 @@ namespace ProductService.Data
             {
                 throw new ArgumentNullException(nameof(product));
             }
-            _context.Products.Add(product);
+            _context.Products?.Add(product);
         }
 
         public IEnumerable<Product> GetAllProducts()

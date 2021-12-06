@@ -56,7 +56,7 @@ ref: https://docs.docker.com/samples/dotnetcore/
 
 ## Step 02 : To build the image
 
-### $docker build -t claudineiacezar/productservice .
+### $ docker build -t claudineiacezar/productservice .
 
 ## Step 03: To push a image to dockerhub
 
@@ -67,3 +67,25 @@ ref: https://docs.docker.com/samples/dotnetcore/
 ### $docker run -dp 8080:80 <image name>
 
 ### $docker run -dp 8080:80 claudineiacezar/productservice
+
+#
+
+# Adapting the service to run with SQL Server in Production
+
+## Entity Framework Migration
+
+### $ dotnet tool install --global dotnet-ef
+
+### $ dotnet ef migrations add InitialCreate
+
+### Rebuild the service image
+
+### $ docker build -t claudineiacezar/productservice .
+
+### Push the new Image to DockerHun
+
+### $ docker push claudineiacezar/productservice
+
+### Restart the kubernetes deployment
+
+### $ kubectl rollout restart deployment products-depl
