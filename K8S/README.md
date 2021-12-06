@@ -67,3 +67,55 @@ ref: https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.1.
 ### Open the host files in windows machine
 
 C:\Windows\System32\drivers\etc
+
+#
+
+# Persistent
+
+As a developer we are interested in make a claim to some storage other than that is an adminstration task
+
+## Step 0: Persistent volume chaim
+
+## Step 01: Persistent volume
+
+### $ kubectl apply -f .\local.pv.yaml
+
+### msg: persistentvolumeclaim/mssql-claim created
+
+### $ kubectl get pvc
+
+## Step 03: Storage Class
+
+### We're gonna work with the kubernetes default class
+
+### $ kubectl get storageclass
+
+## Step 04: Create a SQL Server Password as a secret: Specify:
+
+### name: msql
+
+### Key value pair:
+
+#### Key: SA_PASSWORD
+
+#### value: pa55w0rd!
+
+### $ kubectl create secret generic mssql --from-literal=SA_PASSWORD="pa55w0rd!"
+
+### msg: secret/mssql created
+
+### Note: Make sure that we remember these two thing: the name and the key
+
+#
+
+# The SQL Server Deployment
+
+## kubectl apply -f .\mssql-plat-depl.yaml
+
+## msgs:
+
+### deployment.apps/mssql-deply created
+
+### service/mssql-clusterip-srv created
+
+### service/mssql-loadbalancer created
