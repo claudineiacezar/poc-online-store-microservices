@@ -2174,11 +2174,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\claudineia.cezar.ext\\Documents\\microservices\\InventoryService\\InventoryService.csproj",
+      "projectUniqueName": "C:\\Users\\claudineia.cezar.ext\\Documents\\microservices\\OnlineStore\\InventoryService\\InventoryService.csproj",
       "projectName": "InventoryService",
-      "projectPath": "C:\\Users\\claudineia.cezar.ext\\Documents\\microservices\\InventoryService\\InventoryService.csproj",
+      "projectPath": "C:\\Users\\claudineia.cezar.ext\\Documents\\microservices\\OnlineStore\\InventoryService\\InventoryService.csproj",
       "packagesPath": "C:\\Users\\claudineia.cezar.ext\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\claudineia.cezar.ext\\Documents\\microservices\\InventoryService\\obj\\",
+      "outputPath": "C:\\Users\\claudineia.cezar.ext\\Documents\\microservices\\OnlineStore\\InventoryService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\claudineia.cezar.ext\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pJ+dr37bMNiNBrEYpIyyIxsZExk7yvoE7V0G0Fi1XnpfPBeawNIE8AcuUbuOhvhAepgNtACYRSAOI4L1NRlIhA==",
+  "dgSpecHash": "4xjUlezlLxoQ7au4T2c68nrgr9GZGXeHIZa9lyXi97Pdb+9paLQJKyJEeF/s/wRGbE8EKvby0jHWDPlLaKm0ig==",
   "success": true,
-  "projectFilePath": "C:\\Users\\claudineia.cezar.ext\\Documents\\microservices\\InventoryService\\InventoryService.csproj",
+  "projectFilePath": "C:\\Users\\claudineia.cezar.ext\\Documents\\microservices\\OnlineStore\\InventoryService\\InventoryService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\claudineia.cezar.ext\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\claudineia.cezar.ext\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
